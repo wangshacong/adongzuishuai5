@@ -275,9 +275,9 @@
                                 <li><a target="_blank" href="/article/{{$val->id}}">
                                     <img src='<?php if(mb_substr($val->news_pic,0,1) == "/")$val->news_pic="http://www.people.com.cn$val->news_pic"; echo $val->news_pic; ?>' alt=""></a>       
                                     <div class="yl_tubt">
-                                        <a target="_blank" title="{{$val->title}}" href="/article/{{$val->id}}"><span>{{mb_substr($val->title,0,5)}}</span>
+                                        <a target="_blank" title="{{$val->title}}" href="/article/{{$val->id}}"><span>{{mb_substr($val->title,0,10)}}</span>
                                         </a>
-                                        <p>{{mb_substr($val->title,0,5)}}</p>
+                                        <p>{{mb_substr(preg_replace('/<.*?>/','',$val->content),0,15)}}</p>
                                     </div>
                                 </li>
                                 @endforeach
