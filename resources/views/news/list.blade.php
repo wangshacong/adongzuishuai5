@@ -27,9 +27,9 @@
     @include('gong.head')
     <!--位置代码开始-->
     <div id="weatherItem">
-        <span><b>您当前的位置：</b><a href="http://www.szhk.com/">首页</a> &gt;&gt; <a href="http://yl.szhk.com/"> 深港娱乐 </a>
-            &gt;&gt; <a href="http://yl.szhk.com/music/">
-                音乐</a>
+        <span><b>您当前的位置：</b><a href="/">浙江实创</a> &gt;&gt; <a href="/fenlei/{{$dangqian_fenlei['id']}}">{{$dangqian_fenlei['fenlei_name']}} </a>
+            &gt;&gt;
+                新闻
         </span>
     </div>
     <!--位置代码开始-->

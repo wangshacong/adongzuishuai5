@@ -33,7 +33,7 @@
     <?php 
         $fenlei = \DB::Table('fenlei5s')->where('id',$content['fenlei_id'])->first();
     ?>
-    <div class="weizhi"> 您的当前位置：<a href='/'>浙江实创</a> > <a href='/article/{{$fenlei->id}}'>{{$fenlei->fenlei_name}}</a> >新闻 > </div>
+    <div class="weizhi"> 您的当前位置：<a href='/'>浙江实创</a> > <a href='/fenlei/{{$fenlei->id}}'>{{$fenlei->fenlei_name}}</a> >新闻 > </div>
     <div class="main1">
         <div class="left_1">
             <div class="g_con">
