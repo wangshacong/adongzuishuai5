@@ -35,7 +35,7 @@
             ?>
             <ul class="mod_focus_pic" id="divimginfog_imgPlayer">
                 @foreach($lunbo_big as $v)
-                <li style="display: none;"><a href="/article/{{$v->title}}" title="{{$v->title}}" target="_blank">
+                <li style="display: none;"><a href="/article/{{$v->id}}" title="{{$v->title}}" target="_blank">
                 <img src='<?php if(mb_substr($v->news_pic,0,1) == "/")$v->news_pic="http://www.people.com.cn$v->news_pic"; echo $v->news_pic?>' alt=""></a></li>
                 @endforeach
             </ul>
@@ -73,7 +73,7 @@
                             @foreach($new2_article as $v)
                              <li>
                                 <h1><a target="_blank" href="/article/{{$v->id}}">{{$v->title}}</a></h1>
-                                <p><a target="_blank" href="http://yl.szhk.com/2019/01/18/283022067924199.html">近日，网曝一组向佐和郭碧婷手牵手的照</a></p>
+                                <p><a target="_blank" href="http://yl.szhk.com/2019/01/18/283022067924199.html">{{mb_substr(preg_replace('/<.*?>/','',$v->content),0,25)}}</a></p>
                             </li>
                             @endforeach
                         </ul>
