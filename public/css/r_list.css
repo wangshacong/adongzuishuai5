@@ -1,0 +1,521 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* 右侧内容*/
+
+.right_bt h3{
+	color: #f08200;
+	font-size: 16px;
+	line-height: 24px;
+	margin-top: 15px;
+}
+.right_bt h3 a{ color:#f08200;}
+.right_f14{
+	color: #666;
+	overflow: hidden;
+}
+.right_f14 li{
+	font-size: 14px;
+	line-height: 32px;
+	height: 32px;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #ddd;
+	overflow: hidden;
+	text-overflow: ellipsis;}
+	
+.img_part1{
+	width: 140px;
+}
+.img_part1 img{
+	height: 100px;
+	width: 140px;
+}
+.bd .img_part1 p {
+    float: left;
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    text-align: center;
+    width: 100%;
+	margin-top:5px;
+}
+#dajiaaikan,#pindaopic,#pindaohot{ overflow: hidden;}
+
+
+
+
+
+* html .clearfix {
+	height:1%;
+}
+
+.clearfix {
+	display:block;
+}
+.topnav {
+	background:url(http://img.szhk.com/20148/img/nav_bg.jpg) repeat-x;
+	height:53px;
+	line-height:53px;
+}
+.topmain {
+	width:950px;
+	margin:0 auto;
+}
+.topmain_l {
+	width:734px;
+	float:left;
+}
+.toplist {
+	float:left;
+	width:580px;
+}
+.toplist li {
+	float:left;
+	width:44px;
+	text-align:left;
+	padding-left:12px;
+	font-size:14px;
+}
+.toplist li a {
+	color:#fff;
+	width:44px;
+	text-align:left;
+	padding-left:12px;
+	display:block;
+}
+.toplist li a:hover {
+	background:url(http://img.szhk.com/20148/img/nav_hobg.jpg) no-repeat;
+	width:44px;
+	padding-left:12px;
+	height:53px;
+	display:block;
+}
+.toplist li a.active {
+	background:url(http://img.szhk.com/20148/img/nav_hobg.jpg) no-repeat;
+}
+.tplogo {
+	float:left;
+	width:95px;
+	margin-top:5px;
+}
+.topmain_r {
+	float:right;
+	width:160px;
+	height:24px;
+	margin-top:12px;
+	background:url(http://img.szhk.com/20148/img/nav_right.jpg) no-repeat;
+	margin-left:8px;
+	display:inline;
+}
+a.topsec, a.topsec:hover {
+	display:block;
+	float:left;
+	height:30px;
+	margin-top:2px;
+	width:35px;
+}
+.wfan{ float:right; width:40px; line-height:44px; font-size:14px;}
+.wfan a{ color:#fff;}
+#navigation ul li {
+	float:left;
+	background:url(http://img.szhk.com/20148/img/icon_down.gif) no-repeat right;
+	position:relative;
+	z-index:100;
+}
+#navigation ul li a {
+	display:block;
+	color:#fff;
+	font-weight:700;
+	padding-right:10px;
+}
+#navigation ul li a:hover {
+	background:none;
+	color:#fff;
+}
+#navigation ul li ul {
+	background-color:#02458a;
+	position:absolute;
+	width:60px;
+	overflow:hidden;
+	display:none;
+	top:40px;
+	left:-10px;
+}
+#navigation ul li:hover ul {
+	background-color:#02458a;
+	position:absolute;
+	display:block;
+}
+#navigation ul li ul li {
+	text-align:center;
+	background:none;
+	width:100%;
+	line-height:30px;
+}
+.ep-path {
+	border-bottom:#e4e4e4 1px solid;
+	float:left;
+	width:950px;
+	margin-top:10px;
+}
+
+.article_l {
+	float:left;
+	width:600px;
+}
+.article_r {
+	float:right;
+	width:300px;
+}
+.MainL_Article .hd h1 {
+	font-size:26px;
+	font-weight:bold;
+	padding-bottom:15px;
+	text-align:center;
+	padding-top:20px;
+}
+.endPageNum a:hover {
+	background:#3060b2;
+	border:1px solid #379BE9;
+	color:#FFFFFF;
+	display:inline-block;
+	margin:5px 3px;
+	padding:0 10px;
+	text-decoration:none;
+}
+.tit-bar2 {
+	border-bottom:1px dashed #EBEBEB;
+	height:24px;
+	margin: 5px 0;
+}
+.tit-bar20 {
+	color:#666666;
+	float:left;
+	line-height:24px;
+	width:420px;
+}
+.MainL_bd {
+	padding: 0px 0 10px 0;
+}
+.MainL_bd .bd_Article {
+	font-size:14px;
+	line-height:26px;
+	width:600px;
+}
+.MainL_bd .bd_Article p{ padding-top: 15px;}
+.endPageNum a {
+	border:1px solid #D2E1F1;
+	display:inline-block;
+	font-family:Arial;
+	margin:5px 3px;
+	padding:0 10px;
+	text-decoration:none;
+}
+.endPageNum .s2 {
+	background:#3060b2;
+	color:#fff;
+}
+.bd_Article span.pageleft {
+	border:1px solid #D2E1F1;
+	display:inline-block;
+	font-family:Arial;
+	margin:5px 0;
+	padding:0 10px;
+	text-decoration:none;
+	background:none;
+	color:#ddd;
+}
+.danyu {
+border:#ddd 1px solid;
+	width:580px;
+	float:left;
+	line-height:24px;
+	text-indent:2em;
+	color:#3060b2;
+	padding:10px 10px 10px;
+	overflow:hidden;
+	margin-bottom:5px;
+	 margin-top: 20px;
+
+
+}
+.endPageNum {
+	text-align:center;
+	padding-top: 5px;
+}
+.article {
+	background:url(http://img.szhk.com/20148/img/body_online.jpg) repeat-y 625px 0;
+	float:left;
+	width:950px;
+}
+.gay_list li {
+	float:left;
+	font-size:14px;
+	line-height:24px;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+	width:390px;
+}
+.ad_207 {
+	float:right;
+	width:200px;
+}
+.nr_div {
+	width:600px;
+	float:left;
+}
+.gay_list {
+	float:left;
+	width:355px;
+}
+.nr_div_title {
+	font-size:16px;
+	float:left;
+	width:600px;
+	background:url(http://img.szhk.com/20148/img/online.jpg) repeat-x;
+	line-height:40px;
+}
+.nr_div_title span {
+	border-top:#12509c 1px solid;
+	display:block;
+	width:75px;
+	margin-top:2px;
+	font-weight:bold;
+}
+.sgsht {
+	background:#E6E4E4;
+	border:1px solid #EEEEEE;
+	float:left;
+	width:598px;
+	float:left;
+}
+.sgsht_bt {
+	float:left;
+	height:35px;
+	padding-left:10px;
+	width:590px;
+}
+.sgsht_nr {
+	float:left;
+	line-height:23px;
+	padding:2px;
+	width:590px;
+}
+.sitema {
+	background:none repeat scroll 0 0 #FFFFFF;
+	display:inline;
+	float:left;
+	height:75px;
+	margin-bottom:7px;
+	margin-left:8px;
+	overflow:hidden;
+	padding:5px;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+	width:178px;
+}
+.tab_menu {
+	clear:both;
+}
+.tab_menu li {
+	background:none repeat scroll 0 0 #F1F1F1;
+	border:1px solid #C1C1C1;
+	cursor:pointer;
+	float:left;
+	height:20px;
+	line-height:20px;
+	list-style:none outside none;
+	margin-right:4px;
+	padding:0 6px;
+	text-align:center;
+}
+.tab_menu li.selected {
+	background:none repeat scroll 0 0 #003D96;
+	color:#FFFFFF;
+}
+.sgsht_btl {
+	color:#333333;
+	float:left;
+	line-height:35px;
+	width:458px;
+}
+.sgsht_btr {
+	float:right;
+	margin-top:10px;
+	width:60px;
+}
+.sitema:hover {
+	background:#003D96;
+	color:#FFFFFF;
+}
+.sitema a:hover {
+	color:#fff;
+	cursor:pointer;
+}
+.hide {
+	display:none;
+}
+.tbapic li:nth-of-type(4n+1) {
+margin-left:0;
+}
+.tbapic li:nth-of-type(4n+4) {
+margin-right:0;
+}
+.tbapic li {
+	float:left;
+	width:141px;
+	position:relative;
+	line-height:24px;
+	margin:0 6px;
+	display:inline;
+}
+.tbapic li img {
+	width:141px;
+	height:100px;
+}
+.tbapic li span {
+	background:#000;
+	filter:alpha(opacity=70);
+	-moz-opacity:0.7;
+	-khtml-opacity:0.7;
+	opacity:0.7;
+	color:#fff;
+	padding:0 5px;
+	width:131px;
+	position:absolute;
+	z-index:11;
+	top:75px;
+	left:0;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+}
+.tbapic li span a {
+	color:#fff;
+}
+.shenmin {
+	line-height:22px;
+	color:#666;
+}
+.sz_menu {
+	background:#fff;
+	border:1px solid #ddd;
+	border-bottom:none;
+	float:left;
+	width:298px;
+	line-height:30px;
+}
+.sz_menu li {
+	background:#fff;
+	border-bottom:#ddd 1px solid;
+	border-right:#ddd 1px solid;
+	cursor:pointer;
+	float:left;
+	height:30px;
+	line-height:30px;
+	list-style:none outside none;
+	padding:0 8px;
+	text-align:center;
+	font-size:14px;
+}
+.sz_menu li.selected {
+	border-top:1px solid #043266;
+	border-right:#ddd 1px solid;
+	border-bottom:#fff 1px solid;
+}
+.zplist {
+	margin-top:10px;
+	float:left;
+	width:300px;
+}
+.zplist li {
+	float:left;
+	width:150px;
+}
+.zplist li img {
+	width:145px;
+	height:100px;
+}
+.zplist li span {
+	float:left;
+	width:150px;
+	line-height:30px;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+}
+.zqlinst {
+	background:url(http://img.szhk.com/20148/img/ico_2.jpg) no-repeat top left;
+	float:left;
+	padding-left:20px;
+}
+.zqlinst dd {
+	float:left;
+	width:270px;
+	line-height:26px;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+}
+.look_bt {
+	width:300px;
+	height:35px;
+	line-height:35px;
+	font-size:16px;
+	color:#f08200;
+}
+.look_list{overflow:hidden;}
+.look_list li {
+    line-height: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 30px;
+    border-bottom-width: 1px;
+    border-bottom-style: dashed;
+    border-bottom-color: #ddd;
+    font-size: 13px;
+}
+.ny_ad1 {
+	border:1px solid #ddd;
+	float:left;
+	padding:5px 4px;
+	width:290px;
+	margin-top:10px;
+}
+.ny_list11 li {
+	background:url("http://img.szhk.com/20148/img/diao.jpg") no-repeat 3px 10px;
+	padding-left:10px;
+	width:262px;
+	line-height:24px;
+}
+.nyi_list{overflow:hidden;}
+.nyi_list li {
+    display: inline;
+    float: left;
+    height: 125px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    overflow: hidden;
+    width: 140px;
+    white-space: normal;
+}
+.nyi_list li img {
+	width:140px;
+	height:100px;
+	margin-bottom:5px;
+}
+
+.nyi_list li p {
+	width:140px;
+	overflow:hidden;
+	line-height:20px;
+	height:20px;
+}
+.nyi_list li:nth-of-type(6n+1) {
+margin-left:0;
+}
+.nyi_list li:nth-of-type(6n+6) {
+margin-right:0;
+}
