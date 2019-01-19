@@ -233,15 +233,14 @@
                         <h3><a target="_blank" href="/fenlei/{{$v->id}}">{{$v->fenlei_name}}</a></h3>
                         <?php 
                             $pic_article = \DB::Table('article5s')->orderBy('id','desc')->where('fenlei_id',$v->id)->where('news_pic','<>','')->limit(1)->get();
-                            $article = \DB::Table('article5s')->orderBy('id','desc')->where('fenlei_id',$v->id)->limit(3)->get();
-                            $article8 = \DB::Table('article5s')->orderBy('id','desc')->where('fenlei_id',$v->id)->skip(3)->limit(8)->get();
+                            $article = \DB::Table('article5s')->orderBy('id','desc')->where('fenlei_id',$v->id)->skip(1)->limit(3)->get();
+                            $article8 = \DB::Table('article5s')->orderBy('id','desc')->where('fenlei_id',$v->id)->skip(4)->limit(8)->get();
                         ?>
                         <div class="news_pic mt10">
                             @foreach($pic_article as $val)
                             <a href="/article/{{$val->id}}" target="_blank" class="news_PicStyle2">
-                            <img src='<?php if(mb_substr($val->news_pic,0,1) == "/")$val->news_pic="http://www.people.com.cn$val->news_pic"; echo $val->news_pic?>' alt=""></a></li>
-                                <p class="Q-vBg"><span>{{$val->title}}</span></p>
-                            </a>
+                            <img src='<?php if(mb_substr($val->news_pic,0,1) == "/")$val->news_pic="http://www.people.com.cn$val->news_pic"; echo $val->news_pic?>' alt="">
+                            <p class="Q-vBg"><span>{{$val->title}}</span></p></a>
                             @endforeach
                         </div>
                         <div class="dsj_bt">
