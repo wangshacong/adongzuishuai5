@@ -18,21 +18,6 @@
     <script type="text/javascript" src="/js/foucs.js"></script>
     <!--结束-->
     <script type="text/javascript" src="/js/jquery.tabso_yeso.js"></script>
-    <!-- 检测是否是手机 -->
-    <script language="JAVASCRIPT">
-        if (top.location !== self.location) {
-            top.location = self.location;
-        }
-        try {
-            var urlhash = window.location.hash;
-            if (!urlhash.match("fromapp")) {
-                if ((navigator.userAgent.match(/(iPhone|iPod|Android|ios|iPad)/i))) {
-                    window.location = "http://m.szhk.com/yl/";
-                }
-            }
-        } catch (err) {}
-    </script>
-    <!-- 检测是否是手机结束 -->
 
 </head>
 
