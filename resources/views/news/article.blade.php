@@ -3,7 +3,7 @@
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
-    <title>陈慧琳身穿银色露肩长裙 化身冰美人热力开唱</title>
+    <title>{{$content['title']}}</title>
     <meta name="keywords" content="联赛,出现,操作,爱小,猴子,任开球,开球,嘉宾,引发,争议" />
     <meta name="description" content="请嘉宾来为比赛开球在足坛并不是什么新鲜事，可如果担任开球嘉宾的不是人类而是动物，那会是怎样的一番景象呢？在上周末（11月26日）进行的日本J联赛第33轮，大阪樱花主场迎战神户胜利船的比赛开始之前，主队就别出心裁地请来了一只可爱的小猴子为比赛开球。" />
     <meta http-equiv="mobile-agent" content="format=xhtml;url=/m/view.php?aid=82">

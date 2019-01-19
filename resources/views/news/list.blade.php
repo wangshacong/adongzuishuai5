@@ -5,7 +5,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-    <title>最新音乐、最新流行音乐、演唱会2010-深港在线音乐栏目</title>
+    <title>{{$dangqian_fenlei['fenlei_name']}}</title>
     <meta name="Keywords" content="最新音乐,最新流行音乐, 2010最新流行音乐,最新伤感音乐,演唱会2010">
     <meta name="Description" content="深港在线音乐栏目提供各种最新音乐,最新流行音乐, 2010最新流行音乐,最新伤感音乐,演唱会2010等音乐资讯,想了解最新音乐就去深港在线音乐栏目.">
     <meta http-equiv="Cache-Control" content="no-transform ">
@@ -50,7 +50,7 @@
                 <img src='<?php if(mb_substr($v->news_pic,0,1) == "/")$v->news_pic="http://www.people.com.cn$v->news_pic"; echo $v->news_pic?>' alt=""></a></li>
                     </a><em class="f14 l24"><a target="_blank" class="linkto" href="/article/{{$v->id}}">{{$v->title}}</a>
                     </em>
-                    <p class="l22">{{$v->create_time}}<a target="_blank" class="linkto_ys" href="http://yl.szhk.com/2019/01/17/283022067924034.html">浏览全文&gt;&gt;</a>
+                    <p class="l22">{{$v->create_time}}<a target="_blank" class="linkto_ys" href="/article/{{$v->id}}">浏览全文&gt;&gt;</a>
                     </p>
                 </div>
                 @endforeach
