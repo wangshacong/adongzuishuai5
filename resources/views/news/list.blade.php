@@ -8,9 +8,10 @@
     <title>{{$dangqian_fenlei['fenlei_name']}}</title>
     <meta name="Keywords" content="最新音乐,最新流行音乐, 2010最新流行音乐,最新伤感音乐,演唱会2010">
     <meta name="Description" content="深港在线音乐栏目提供各种最新音乐,最新流行音乐, 2010最新流行音乐,最新伤感音乐,演唱会2010等音乐资讯,想了解最新音乐就去深港在线音乐栏目.">
-    <meta http-equiv="Cache-Control" content="no-transform ">
     <link href="/css/common.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css" type="text/css" />
     <link rel="stylesheet" href="/css/layout_yl.css">
+    <link rel="stylesheet" href="/css/dashang.css" type="text/css" />
     <link rel="stylesheet" href="/css/pagination.css">
     <link rel="stylesheet" href="/css/r_list.css">
     <script src="/js/hm.js"></script>
