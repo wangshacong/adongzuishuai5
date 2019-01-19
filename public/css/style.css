@@ -3361,9 +3361,9 @@ body {
 }
 
 .content {
-	height: 595px;
+	/* height: 595px; */
 	width: 860px;
-	position: absolute;
+	/* position: absolute; */
 	left: 70px;
 
 }
