@@ -9,7 +9,9 @@
     <meta name="Keywords" content="最新娱乐新闻,香港娱乐新闻,八卦娱乐新闻,娱乐新闻,明星绯闻,电影,电视">
     <meta name="Description" content="深港在线娱乐新闻频道提供深圳香港两地的最新娱乐新闻资讯，包含明星绯闻、电影、电视等最新娱乐新闻。香港娱乐新闻是被关注的娱乐焦点，特别是香港八卦娱乐新闻，所以香港八卦娱乐新闻是娱乐频道的重点。">
     <link href="/css/common.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css" type="text/css" />
     <link rel="stylesheet" href="/css/layout_yl.css">
+    <link rel="stylesheet" href="/css/dashang.css" type="text/css" />
     <script src="/js/hm.js"></script>
     <script type="text/javascript" src="/js/jquery-3.1.0.min.js"></script>
     <!--轮播JS-->
