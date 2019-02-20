@@ -99,7 +99,7 @@
                 <div class="t_1"> 热门排行 </div>
                 <ul class="b_box1">
                     <?php 
-                        $hot_article = \DB::Table('article5s')->orderBy('dianji','desc')->where('fenlei_id',$content['fenlei_id'])->get();
+                        $hot_article = \DB::Table('article5s')->orderBy('dianji','desc')->where('fenlei_id',$content['fenlei_id'])->limit(15)->get();
                     ?>
                     @foreach($hot_article as $v)
                     <li><a href="/article/{{$v->id}}">{{$v->title}}</a></li>
