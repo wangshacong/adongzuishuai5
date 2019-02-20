@@ -67,7 +67,7 @@
                     </div>
                 </div>
                 <div class="bd_Article">
-                        <?php echo $content['content']; ?>
+                        <?php echo substr_replace('src="/NMediaFile','src="http://www.people.com.cn/NMediaFile',$content['content']); ?>
                 </div>
                 <div class="b_box7">
                     <p> 相关推荐： </p>
